@@ -1,0 +1,183 @@
+/* Global Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box  ;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #2ce3d4;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Navigation */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Landing Section */
+.landing {
+    background: url('background.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.landing h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.landing p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.btn-primary {
+    background: #f80;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #f60;
+}
+
+/* Features Section */
+#features {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.feature-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+    padding: 50px 0;
+}
+
+.testimonial-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonial {
+    background: #f8f8f8;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+}
+
+
+/* Pricing Section */
+#pricing {
+    padding: 50px 0;
+    background: #f4f4f4;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.pricing-plan {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+
+/* Contact Section */
+#contact {
+    padding: 50px 0;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+
+#contact-form button {
+    background: #f80;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+#contact-form button:hover {
+    background: #f60;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
